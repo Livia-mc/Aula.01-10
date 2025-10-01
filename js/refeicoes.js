@@ -5,7 +5,7 @@ var cafe=[], c, almoco=[], a, jantar=[], j
 cafe[0]=(prompt("O que quer para o café da manhã?"))
 
     while(cafe[0]==""){
-    alert("Você tem que escolher ao menos um elemento do nosso cardápio")
+    alert("Você tem que escolher ao menos dois elementos do nosso cardápio")
     cafe[0]=(prompt("O que quer para o café da manhã?"))
 }
 
@@ -27,9 +27,10 @@ while(c!=null)
 almoco[0]=(prompt("O que quer para o almoço?"))
 
     while(almoco[0]==""){
-    alert("Você tem que escolher ao menos um elemento do nosso cardápio")
+    alert("Você tem que escolher ao menos dois elementos do nosso cardápio")
     almoco[0]=(prompt("O que quer para o almoço?"))
 }
+
 
 do{
     a=prompt("O que mais? ")
@@ -50,9 +51,10 @@ while(a!=null)
 jantar[0]=(prompt("O que quer para o jantar?"))
 
     while(jantar[0]==""){
-    alert("Você tem que escolher ao menos um elemento do nosso cardápio")
+    alert("Você tem que escolher ao menos dois elementos do nosso cardápio")
     jantar[0]=(prompt("O que quer para o jantar?"))
 }
+
 
 do{
     j=prompt("O que mais? ")
